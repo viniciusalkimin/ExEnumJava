@@ -25,6 +25,14 @@ public class Worker {
 		this.department = department;
 	}
 
+	public Department getDepartment() {
+		return department;
+	}
+
+	public void setDepartment(Department department) {
+		this.department = department;
+	}
+
 	public String getname() {
 		return name;
 	}
